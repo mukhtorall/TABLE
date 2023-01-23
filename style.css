@@ -1,0 +1,45 @@
+body {
+  background-image: url("./5-56571_css-color-overlay-png-monochrome.png");
+}
+
+table {
+  margin: 0 auto;
+  width: 50%;
+  border: 1px solid black;
+  text-align: center;
+}
+
+td {
+  background-color: rgb(221, 219, 219);
+  border: 1px solid rgb(165, 116, 116);
+}
+th {
+  background-color: aliceblue;
+  font-size: 25px;
+  border: 1px solid black;
+}
+
+th:hover {
+  transition: 1s;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(3, 194, 3);
+}
+th:active {
+  transition: -1s;
+  transform: scale(0.9);
+  cursor: pointer;
+  color: white;
+  background-color: rgb(3, 194, 3);
+}
+td:hover {
+  cursor: pointer;
+  color: white;
+  background-color: blue;
+}
+td:active {
+  transform: scale(0.9);
+  cursor: pointer;
+  color: white;
+  opacity: 0.8;
+}
